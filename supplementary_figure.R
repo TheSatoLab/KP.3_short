@@ -85,6 +85,7 @@ metadata.filtered <- metadata.filtered[!duplicated(metadata.filtered$Virus.name)
 ########## Mutation frequency plot for tree reconstruction #########
 ## mut.info
 ## make sure to use python script that includes all needed period to make mut.info
+metadata.filtered.2 <- metadata.filtered
 
 lineage.interest.v <- c("BA.2.86.1","JN.1","KP.2","KP.3","LB.1","KP.2.3")
 
